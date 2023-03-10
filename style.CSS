@@ -1,0 +1,72 @@
+main{
+    display: grid;
+    grid-template-columns: 62% 38%;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+hr{
+    border:none;;
+    background-color:rgb(150, 150, 150);
+    height:1px;
+}
+a{
+  color: rgb(7, 24, 63);
+  text-decoration: none;
+  font-style: normal;  
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font-weight: bold;
+    transition-duration: 0.35s;
+}
+li{
+    margin-left: 0px;
+    padding-left: 0%;
+}
+li::marker{
+    color: rgba(0, 80, 134, 0);
+    margin-left: 0px;
+}
+#left{
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+details{
+    padding-bottom: 1.5rem;
+}
+#studies{
+    margin-bottom: 0px;
+}
+#instute{
+    margin-top: 0%;
+    font-size: 87%;
+    font-style:oblique ;
+}
+
+#left{
+    border-right: 1px solid rgb(150, 150, 150);
+    /*text-align: center;*/
+    
+}
+#title{
+    font-size:1.3rem;
+    margin-top: .65rem;
+    margin-bottom: .75em;
+}
+#txt_name{
+    font-size: 2rem;
+    text-shadow: 0px 0px 45px rgba(15, 164, 184, 0.473);
+    margin-top: .75rem;
+    margin-bottom: .5rem;
+    
+}
+.headings{
+    text-align-last: center;
+    font-size: 1.4rem;
+    padding-top: 1%;
+    padding-bottom: 0%;    
+}
+#right{
+    margin-left: -1rem;
+}
