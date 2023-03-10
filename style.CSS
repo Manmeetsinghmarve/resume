@@ -1,8 +1,8 @@
 main{
     display: grid;
     grid-template-columns: 62% 38%;
-    font-family: sans-serif;
-    font-size: 1rem;
+    font-family: 'railway','Lucida Sans',;
+    font-size: 1em;
 }
 hr{
     border:none;;
@@ -18,7 +18,7 @@ a:hover{
     color: rgb(0, 0, 0);
     font-style: oblique;
     font-weight: bold;
-    transition-duration: 0.35s;
+    transition-duration: 0.25s;
 }
 li{
     margin-left: 0px;
@@ -27,6 +27,13 @@ li{
 li::marker{
     color: rgba(0, 80, 134, 0);
     margin-left: 0px;
+}
+.project_description{
+    font-size: small;
+}
+.project_description::marker{
+    color: #080808e4;
+    font-size: smaller;
 }
 #left{
     padding-left: 2rem;
@@ -51,15 +58,21 @@ details{
 }
 #title{
     font-size:1.3rem;
-    margin-top: .65rem;
-    margin-bottom: .75em;
+    margin-top: -1rem;
+    margin-bottom: 1em;
 }
 #txt_name{
     font-size: 2rem;
-    text-shadow: 0px 0px 45px rgba(15, 164, 184, 0.473);
-    margin-top: .75rem;
-    margin-bottom: .5rem;
+    /* text-shadow: 0px 0px 45px rgba(15, 164, 184, 0.473); */
+    margin-top: .5rem;
+    margin-bottom: 0rem;
     
+}
+#name{
+    padding-left: 2em;
+    /* background-color: rgba(64, 153, 209, 0.542); */
+    /* padding-bottom: 1%; */
+    /* bottom:1em; */
 }
 .headings{
     text-align-last: center;
